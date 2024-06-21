@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://snipcarteshop.netlify.app/'
 languageCode = 'en-us'
 title = 'Snip Cart EShop'
 theme = "shoptheme"
