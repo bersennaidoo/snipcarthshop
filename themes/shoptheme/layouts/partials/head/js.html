@@ -10,3 +10,7 @@
     {{- end }}
   {{- end }}
 {{- end }}
+
+{{- range site.Params.jscdn }}
+  <script async src="{{ . }}"></script>
+{{ end }}

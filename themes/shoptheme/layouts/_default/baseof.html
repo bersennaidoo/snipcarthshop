@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  {{ partial "head.html" . }}
-</head>
-<body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
-</body>
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <header>{{ partial "header.html" . }}</header>
+    <section class="page">{{ block "main" . }}{{ end }}</section>
+    <footer>{{ partial "footer.html" . }}</footer>
+
+    <div hidden id="snipcart" data-api-key="M2I5NmZmNDAtZDhhYi00NDEwLWE1YmYtOGJmMzYwMTFkMGQxNjM4NDg2ODU5MTIxNDMxNDM0" data-config-modal-style="side" data-templates-url="/snipcart-templates.html" />
+  </body>
 </html>

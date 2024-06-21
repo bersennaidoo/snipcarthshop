@@ -1,3 +1,12 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Snip Cart EShop'
+theme = "shoptheme"
+
+[[menus.main]]
+name = 'Home'
+url = '/'
+weight = 10
+
+[params]
+  jscdn = ["https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.js"]
